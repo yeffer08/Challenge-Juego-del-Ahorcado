@@ -52,7 +52,7 @@ function iniciar(event) {
     const cant_letras = palabrita.length;
 
     for (let i = 0; i < btn_letras.length; i++) {
-        btn_letras[i].style.background="rgb(195, 82, 82)";
+        btn_letras[i].style.background="rgb(138, 50, 3)";
         btn_letras[i].disabled = false;
     }
 
@@ -95,7 +95,7 @@ function Guardar(event) {
     id('resultado').innerHTML = " ";
     const cant_letras = palabrita.length;
     for (let i = 0; i < btn_letras.length; i++) {
-        btn_letras[i].style.background="rgb(195, 82, 82)";
+        btn_letras[i].style.background="rgb(138, 50, 3)";
         btn_letras[i].disabled = false;
     }
 

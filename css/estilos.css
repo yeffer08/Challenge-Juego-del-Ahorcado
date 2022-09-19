@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: url(img/fondo.png) no-repeat center;
+    background: url(img/fondo2.png) no-repeat center;
     background-size: cover;
     font-family: 'Carter One', Arial, Helvetica, sans-serif;
     min-height: 100vh;
@@ -23,7 +23,7 @@ main{
     width: 55%;
     margin: auto;
     padding: 20px;
-    background: rgba(255,255,255,.7);
+    background: rgba(140, 83, 37, 0.7);
     display: flex;
     border-radius: 6px;
     gap: 30px;
@@ -33,7 +33,7 @@ button{
     font-family:'Carter One', Arial, Helvetica, sans-serif;
     margin: 5px;
     font-size:16px;
-    background: rgb(195, 82, 82);
+    background: rgb(138, 50, 3);
     color: white;
     border-radius: 6px;
     cursor: pointer;

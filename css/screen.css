@@ -1,0 +1,58 @@
+@media screen and (max-width: 1500px) {
+    main{
+        margin: 70px;
+        width: auto;
+    }
+
+    #imagen{
+        width: 50%;
+          
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main{
+        margin: 50px 50px 114px;
+        width: auto;
+    }
+    button{
+        margin: 2px;
+    }
+    #imagen{
+        width: 45%;
+          
+    }
+    
+    #letras{
+        gap: 4px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main{
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+    button{
+        margin: 1px;
+        padding: 2px;
+        font-size: 13px;
+        
+    }
+    #imagen{
+        margin: 0 20px;
+        width: 80%;
+        height: auto;
+          
+    }
+    #palabra_a_adivinar{
+        text-align: center;
+        font-size: 11px;
+    }
+
+    #letras{
+        width:auto;
+        gap: 6px;
+    }
+}

@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    background: url(img/fondo.png) no-repeat center;
+    background-size: cover;
+    font-family: 'Carter One', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+header{
+    text-align: center;
+    background: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+
+main{
+    width: 55%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255,255,255,.7);
+    display: flex;
+    border-radius: 6px;
+    gap: 30px;
+}
+
+button{
+    font-family:'Carter One', Arial, Helvetica, sans-serif;
+    margin: 5px;
+    font-size:16px;
+    background: rgb(195, 82, 82);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(34, 30, 30);
+}
+
+
+#imagen{
+    width: 50%;
+    border-radius: 6px;
+}
+
+#palabra_a_adivinar{
+    height: 3em;
+}
+
+
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block; 
+}
+
+#letras{
+    width:80%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+#letras button{
+    width: 40px;
+    padding: 6px 0;
+    text-align: center;
+}
+
+#palabra_nueva{
+    margin: 5px 5px;
+    padding: 10px;
+    width:50%;
+    color: white;
+    font-family: 'Carter One', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    background:none;
+    display: none;
+}
+
+#Guardar{
+    margin: 5px;
+    display: none;
+}
